@@ -19,7 +19,7 @@ public class ArrayListLamb {
         });
 
         System.out.println("=====Using Consumer===============");
-        //or
+        //or store a lambda in a variable
         Consumer<Integer> list = (x)->{
             System.out.println(x);
         };
